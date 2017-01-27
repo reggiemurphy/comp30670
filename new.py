@@ -1,13 +1,7 @@
 import platform
 
-platform.machine()
-
-platform.version()
-
-platform.platform()
-
-platform.uname()
-
-platform.system()
-
-platform.processor()
+print("Machine is:", platform.machine())
+print("Version is:", platform.version())
+print("Uname is:", platform.uname())
+print("System is:", platform.system())
+print("Processor is:", platform.processor())
